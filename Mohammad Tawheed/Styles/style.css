@@ -1,0 +1,109 @@
+#app {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 0;
+    background-color: rgb(127, 139, 207);
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 0;
+    color: beige;
+}
+
+header button {
+    width: 120px;
+    height: 30px;
+    margin-left: 91%;
+    margin-bottom: 10px;
+}
+
+.searchAndSort,
+.searchBox {
+    left: 75%;
+    padding: 20px;
+    width: 230px;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.searchAndSort {
+    top: 40%;
+}
+
+.pageHeader {
+    text-align: center;
+}
+
+.lesson {
+    margin-left: 15%;
+    margin-top: 2%;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    flex-direction: row;
+}
+
+.lesson h2 {
+    font-size: 20px;
+}
+
+.lesson h2,
+.lesson p {
+    position: relative;
+    display: flex;
+    margin-left: 10px;
+}
+
+.lessonImage {
+    position: absolute;
+    display: flex;
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.lesson button {
+    display: flex;
+    margin-left: 180px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+.fa-plus {
+    position: relative;
+    top: 3px;
+    margin-right: 3px;
+}
+
+.cartProducts {
+    padding: 10px;
+    width: 180px;
+
+    margin-left: 200px;
+}
+
+.basket {
+    width: 320px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+.inputField {
+    margin-left: 28px;
+}
